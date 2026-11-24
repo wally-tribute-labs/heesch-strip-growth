@@ -1,0 +1,19 @@
+encoding F(S,3) for 20 cells (streamed to disk) ...
+Traceback (most recent call last):
+  File "/tmp/yukon-home/heesch/tools/prove.py", line 596, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/tmp/yukon-home/heesch/tools/prove.py", line 478, in main
+    enc = encode_multilevel_stream(tile, sub.grid, outcome.contact, m, cnf_path)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/yukon-home/heesch/heesch_encoder/multilevel/api.py", line 132, in encode_multilevel_stream
+    for cl in stream.clauses():
+              ^^^^^^^^^^^^^^^^
+  File "/tmp/yukon-home/heesch/heesch_encoder/multilevel/clauses.py", line 58, in clauses
+    yield from _ml_clauses(self)
+  File "/tmp/yukon-home/heesch/heesch_encoder/multilevel/clauses.py", line 146, in _ml_clauses
+    for (a, b) in touching_cellset_pairs(all_sets, contact):
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/yukon-home/heesch/heesch_encoder/multilevel/universe.py", line 168, in touching_cellset_pairs
+    pairs.add((a, b))
+MemoryError

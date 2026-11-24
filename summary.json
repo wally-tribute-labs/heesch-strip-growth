@@ -1,0 +1,28 @@
+{
+  "family": 761,
+  "finite_counts": {
+    "0,0": 271,
+    "0,1": 161,
+    "1,1": 193,
+    "2,2": 5
+  },
+  "finite_total": 630,
+  "best_finite_ids": [
+    "74224b0032593a2940f03de7dcb3c0a373a459ba864951f67d39733f3ce07b76",
+    "bd17a09c699041f25c25ec14514ea220590746338f318fee99886a4382e2dd4b",
+    "c270c59040d7819a889fbfe9af3424683a4563f97adf82c4d3bd3f146cb71c85",
+    "c5a38210e548150caed92b5edec3cde2e236d0199028b29314b2351c8b125a29",
+    "f364a7117f6d9b7bd6a9ea86bcd314120d6d4349ac2ae0816cebad766be3597d"
+  ],
+  "best_finite_selected": "74224b0032593a2940f03de7dcb3c0a373a459ba864951f67d39733f3ce07b76",
+  "frozen_gate_tilers": 130,
+  "gate_types": {
+    "conway": 100,
+    "periodic": 22,
+    "translation": 8
+  },
+  "additional_periodic_tilers": 1,
+  "tilers_total": 131,
+  "four_or_more_unclassified": [],
+  "all_native_resource_failures_recovered": true
+}
