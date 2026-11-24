@@ -1,0 +1,51 @@
+{
+  "37921": {
+    "checked": [
+      "contacts-1",
+      "contacts-2",
+      "contacts-3",
+      "contacts-4"
+    ],
+    "excluded_weak_depth": 4,
+    "verified_positive_depth": 3
+  },
+  "33048": {
+    "checked": [
+      "contacts-1",
+      "contacts-2",
+      "contacts-3",
+      "contacts-4",
+      "contacts-5",
+      "partial-2"
+    ],
+    "excluded_weak_depth": 4,
+    "verified_positive_depth": 3
+  },
+  "26263": {
+    "checked": [
+      "contacts-1",
+      "contacts-2",
+      "contacts-3",
+      "contacts-4",
+      "contacts-5",
+      "partial-3"
+    ],
+    "excluded_weak_depth": 4,
+    "verified_positive_depth": 3
+  },
+  "1228": {
+    "checked": [
+      "contacts-1",
+      "contacts-2",
+      "contacts-3",
+      "contacts-4",
+      "partial-3"
+    ],
+    "excluded_weak_depth": 4,
+    "verified_positive_depth": 3
+  },
+  "control": {
+    "depth_two_pinned_placements": 17,
+    "depth_three_pinned_placements": 35
+  }
+}

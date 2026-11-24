@@ -1,0 +1,12 @@
+{
+  "scope": {
+    "claim": "all possible contacts belong to retained set",
+    "depth": 3,
+    "supported": 13
+  },
+  "variables": 146,
+  "clauses": 545,
+  "formula_sha256": "a57316fb5bea1509cc019de68fd34fb44ca7586eeea908a54e24f6a5958f58ba",
+  "lrat_sha256": "8cae3e78edaf0d3dd42873c4b756cc1addab01c37a3337c930f3fd0a1a3c6077",
+  "drat_sha256": "b698a131e89c159244dc948648569fee415e082e47f57c581078a0baa8c70296"
+}

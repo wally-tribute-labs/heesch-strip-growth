@@ -1,0 +1,100 @@
+{
+  "first_ring": {
+    "holed_only": 8425,
+    "no_cover": 42020,
+    "strict": 9523
+  },
+  "frozen_strict_witnesses_verified": 9523,
+  "group_decisions": {
+    "child_compact": {
+      "holed_only": 1772,
+      "no_cover": 19987,
+      "strict": 2842
+    },
+    "child_elongated": {
+      "holed_only": 6653,
+      "no_cover": 22033,
+      "strict": 6681
+    },
+    "parents_compact": {
+      "holed_only": 1628,
+      "no_cover": 14827,
+      "strict": 2590
+    },
+    "parents_compact_or_elongated": {
+      "holed_only": 73,
+      "no_cover": 869,
+      "strict": 71
+    },
+    "parents_elongated": {
+      "holed_only": 6724,
+      "no_cover": 26324,
+      "strict": 6862
+    }
+  },
+  "independent_sat_control_ids": {
+    "compact_holed_only": [
+      2,
+      135,
+      142,
+      182,
+      195,
+      236,
+      255,
+      284
+    ],
+    "compact_no_cover": [
+      4,
+      5,
+      10,
+      14,
+      15,
+      16,
+      17,
+      19
+    ],
+    "compact_strict": [
+      0,
+      33,
+      79,
+      101,
+      111,
+      128,
+      148,
+      163
+    ],
+    "elongated_holed_only": [
+      7,
+      12,
+      26,
+      50,
+      60,
+      63,
+      66,
+      68
+    ],
+    "elongated_no_cover": [
+      1,
+      3,
+      6,
+      8,
+      9,
+      11,
+      13,
+      18
+    ],
+    "elongated_strict": [
+      29,
+      32,
+      39,
+      55,
+      57,
+      69,
+      74,
+      76
+    ]
+  },
+  "independent_weak_first_matches": 59968,
+  "native_ring_file_sha256": "f9ee2017a4bae0da8de60e75f8809c40c5c5196713885c2cb89d64909f95436d",
+  "total_shapes": 59968
+}

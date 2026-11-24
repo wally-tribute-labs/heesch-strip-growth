@@ -1,0 +1,14 @@
+{
+  "shapes": 59968,
+  "retry_count": 73,
+  "initial_node_limit": 100000,
+  "retry_node_limit": 10000000,
+  "unresolved": 0,
+  "nonempty_necessary_layers": {
+    "4": 1955,
+    "0": 42020,
+    "1": 15607,
+    "2": 371,
+    "3": 15
+  }
+}

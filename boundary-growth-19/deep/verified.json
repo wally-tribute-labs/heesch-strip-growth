@@ -1,0 +1,36 @@
+{
+  "shapes": 59968,
+  "tested_for_tiling": 1955,
+  "checked_tilers": 1948,
+  "tiling_unit_sizes": {
+    "1": 78,
+    "2": 1244,
+    "3": 521,
+    "4": 99,
+    "6": 4,
+    "8": 2
+  },
+  "without_unit_through_eight": [
+    1228,
+    26263,
+    33048,
+    44301,
+    48139,
+    53023,
+    54342
+  ],
+  "strict_geometry_cases": 22,
+  "finite_strict_depths_in_deep_search": {
+    "1": 4,
+    "2": 14,
+    "3": 4
+  },
+  "finite_three": [
+    1228,
+    26263,
+    33048,
+    37921
+  ],
+  "finite_four_or_more": 0,
+  "finite_three_with_hh_four": []
+}

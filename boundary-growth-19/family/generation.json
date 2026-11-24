@@ -1,0 +1,12 @@
+{
+  "parents": 161,
+  "shapes": 59968,
+  "growth_routes": 66701,
+  "rejected_growth_routes": {
+    "SHAPE_HAS_HOLE": 2828
+  },
+  "kaplan_sha256": "77e40d2966a1603b536944e6767d84dbdae9d53677965b1c525da638492a535d",
+  "id_origin": 0,
+  "elongated_cutoff": 2,
+  "axis_measure": "ratio of principal-axis standard deviations of hexagon centers"
+}

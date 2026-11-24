@@ -1,0 +1,132 @@
+{
+  "all": {
+    "shapes": 59968,
+    "strict_first": 9523,
+    "proven_periodic": 1948,
+    "finite_strict_two_or_more": 59,
+    "finite_strict_three": 4,
+    "finite_strict_four": 0
+  },
+  "child_classes": {
+    "compact": {
+      "shapes": 24601,
+      "strict_first": 2842,
+      "proven_periodic": 814,
+      "finite_strict_two_or_more": 25,
+      "finite_strict_three": 1,
+      "finite_strict_four": 0
+    },
+    "elongated": {
+      "shapes": 35367,
+      "strict_first": 6681,
+      "proven_periodic": 1134,
+      "finite_strict_two_or_more": 34,
+      "finite_strict_three": 3,
+      "finite_strict_four": 0
+    }
+  },
+  "matching": "Within each exposed-edge count take the same number of children from each class, in ascending canonical SHA-256 order.",
+  "matched_pairs_by_perimeter": {
+    "32": 0,
+    "34": 0,
+    "36": 14,
+    "38": 72,
+    "40": 262,
+    "42": 545,
+    "44": 682,
+    "46": 591,
+    "48": 733,
+    "50": 985,
+    "52": 1353,
+    "54": 1867,
+    "56": 2474,
+    "58": 2562,
+    "60": 2378,
+    "62": 2141,
+    "64": 1909,
+    "66": 1263,
+    "68": 806,
+    "70": 679,
+    "72": 340,
+    "74": 98,
+    "76": 0
+  },
+  "matched": {
+    "elongated": {
+      "shapes": 21754,
+      "strict_first": 3992,
+      "proven_periodic": 743,
+      "finite_strict_two_or_more": 25,
+      "finite_strict_three": 1,
+      "finite_strict_four": 0
+    },
+    "compact": {
+      "shapes": 21754,
+      "strict_first": 1924,
+      "proven_periodic": 433,
+      "finite_strict_two_or_more": 6,
+      "finite_strict_three": 1,
+      "finite_strict_four": 0
+    }
+  },
+  "disjoint_parent_groups": {
+    "compact_only": {
+      "shapes": 19045,
+      "strict_first": 2590,
+      "proven_periodic": 778,
+      "finite_strict_two_or_more": 27,
+      "finite_strict_three": 1,
+      "finite_strict_four": 0
+    },
+    "elongated_only": {
+      "shapes": 39910,
+      "strict_first": 6862,
+      "proven_periodic": 1149,
+      "finite_strict_two_or_more": 31,
+      "finite_strict_three": 3,
+      "finite_strict_four": 0
+    },
+    "both": {
+      "shapes": 1013,
+      "strict_first": 71,
+      "proven_periodic": 21,
+      "finite_strict_two_or_more": 1,
+      "finite_strict_three": 0,
+      "finite_strict_four": 0
+    }
+  },
+  "finalists": [
+    {
+      "id": 1228,
+      "digest": "0503ddc59992fd65681de560e200870c0b011dc930b98c815d6376d9cad16930",
+      "axis_ratio": 1.5346534902,
+      "parents": [
+        63
+      ]
+    },
+    {
+      "id": 26263,
+      "digest": "7036b8537fe8e498b17af71b3f0a368903593f22c05e4bea2ed96c6fba36abed",
+      "axis_ratio": 2.6606051005,
+      "parents": [
+        181
+      ]
+    },
+    {
+      "id": 33048,
+      "digest": "8d48d8551f0ee33f446ad892a3c9594e2e21bdac988420453438a2dbbe06500f",
+      "axis_ratio": 6.5398658016,
+      "parents": [
+        110
+      ]
+    },
+    {
+      "id": 37921,
+      "digest": "a2542d1ac876ea3806793c588944bec7e91ecbfb25c1f7ebf78c2559228f8acb",
+      "axis_ratio": 5.6327186012,
+      "parents": [
+        374
+      ]
+    }
+  ]
+}

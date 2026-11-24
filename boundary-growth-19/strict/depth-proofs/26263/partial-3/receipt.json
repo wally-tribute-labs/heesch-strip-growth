@@ -1,0 +1,18 @@
+{
+  "scope": {
+    "claim": "no weak fourth corona",
+    "required_depth": 4,
+    "retained_layers": [
+      1,
+      5,
+      34,
+      1664
+    ],
+    "check_outer_contacts": false
+  },
+  "variables": 32662,
+  "clauses": 94574,
+  "formula_sha256": "cdce04c711d4b4e128cf1fa48d35cfe68ed0601cd255dfd67d8d201675f859ae",
+  "lrat_sha256": "00cc158a456ddc306ebc0c5d0a595d4b63f7e27bb32b6cc422b8fb3477775888",
+  "drat_sha256": "557c9ce9ce6b07fb6247aaf9ac5a22634298bf70c18a06ae0fb6803d47a25b6f"
+}

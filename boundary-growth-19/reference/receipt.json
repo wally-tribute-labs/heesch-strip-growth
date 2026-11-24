@@ -1,0 +1,12 @@
+{
+  "sha256": "c9ea17557864eaf19f4d56a7be02926c2c0b7e45c6ffb6f4904e950e8cdcce7b",
+  "bytes": 2162846701,
+  "vars": 1367908,
+  "clauses": 8619984,
+  "shape_digest": "7036b8537fe8e498b17af71b3f0a368903593f22c05e4bea2ed96c6fba36abed",
+  "depth": 4,
+  "matched_native": true,
+  "runtime": "PyPy 3.11.17",
+  "elapsed_seconds": 1112.378,
+  "peak_rss_kib": 3353384
+}

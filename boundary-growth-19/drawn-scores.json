@@ -1,0 +1,58 @@
+[
+  {
+    "id": 26263,
+    "parent": 181,
+    "score_exact": "727/187",
+    "geometry_score": 3.8877005347593583,
+    "axis_ratio": 2.66060510052354,
+    "required": 187,
+    "charged": 21,
+    "uncovered": 21,
+    "extra_enclosed": 0,
+    "complete_rings": 3,
+    "hash": "52a5948e76dcdb3c081f695a63dbd4ea5172e070b3a453a6a5a4c60d2925402c",
+    "digest": "7036b8537fe8e498b17af71b3f0a368903593f22c05e4bea2ed96c6fba36abed"
+  },
+  {
+    "id": 1228,
+    "parent": 63,
+    "score_exact": "287/74",
+    "geometry_score": 3.8783783783783785,
+    "axis_ratio": 1.5346534901759656,
+    "required": 148,
+    "charged": 18,
+    "uncovered": 16,
+    "extra_enclosed": 2,
+    "complete_rings": 3,
+    "hash": "4b0c8dd056376ec472d7e56346b791512b6ef9fb0215b09fa93717d3334f11e0",
+    "digest": "0503ddc59992fd65681de560e200870c0b011dc930b98c815d6376d9cad16930"
+  },
+  {
+    "id": 37921,
+    "parent": 374,
+    "score_exact": "1182/307",
+    "geometry_score": 3.8501628664495113,
+    "axis_ratio": 5.632718601155939,
+    "required": 307,
+    "charged": 46,
+    "uncovered": 46,
+    "extra_enclosed": 0,
+    "complete_rings": 3,
+    "hash": "a76415ba78d3294db0f52b5e994f3db42878fa707d08d6b43603bd01dee0b744",
+    "digest": "a2542d1ac876ea3806793c588944bec7e91ecbfb25c1f7ebf78c2559228f8acb"
+  },
+  {
+    "id": 33048,
+    "parent": 110,
+    "score_exact": "1375/361",
+    "geometry_score": 3.8088642659279777,
+    "axis_ratio": 6.539865801599677,
+    "required": 361,
+    "charged": 69,
+    "uncovered": 61,
+    "extra_enclosed": 8,
+    "complete_rings": 3,
+    "hash": "04a8dc2693a1f66156665471b6f54a15093d51815a867d2bc37fa87fc58b6f71",
+    "digest": "8d48d8551f0ee33f446ad892a3c9594e2e21bdac988420453438a2dbbe06500f"
+  }
+]

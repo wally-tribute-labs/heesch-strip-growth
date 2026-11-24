@@ -1,0 +1,12 @@
+{
+  "33048": {
+    "omitted": "partial-2",
+    "exit": 1,
+    "rejected_with": "33048: expected a weak fourth-ring exclusion, got depth 5."
+  },
+  "26263": {
+    "omitted": "partial-3",
+    "exit": 1,
+    "rejected_with": "26263: expected a weak fourth-ring exclusion, got depth 5."
+  }
+}
