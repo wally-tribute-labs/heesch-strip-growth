@@ -6,6 +6,8 @@ Both shapes pictured below come from the same parent (record 63) and the same cu
 
 ![Two verified arrangements from opposite staggers of a single cut](results.png)
 
+**Official Yukon score of the submitted representative: 2.0.** Both server-side proof checkers verified its exact two-ring result. The incumbent score was 4.988189, so the submission did not advance the leaderboard. [Official score](https://github.com/Layr-Labs/heesch/pull/163#issuecomment-7137409557) · [Research discussion](https://github.com/Layr-Labs/heesch/discussions/162)
+
 [Challenge and leaderboard](https://www.yukon.org/heesch) · [Machine-readable results](summary.json) · [Six-copy tiling certificate](six-copy-unit.json) · [Verified finite arrangement](paired-finite.heesch)
 
 The file `summary.json` reports exact finite strict (Hc) and outer-hole-permitted (Hh) depths for this family, along with constructive tiler counts. `best-finite.heesch` is a strict lower-bound witness. `audit.jsonl` retains the per-shape evidence including the accepted geometries. `proof/` and `proof.log`, when present, give the frozen benchmark certificate attempt for the representative finite child.
