@@ -47,7 +47,7 @@ Frozen verifier commit [947f057](https://github.com/Layr-Labs/heesch/tree/947f05
 
 The challenge encoder completed the three-ring formula for the finite child of parent 298 when given a 5,632 MiB process memory allowance. The formula has 450,662 variables and 1,645,532 clauses. Glucose4 found it unsatisfiable and drat-trim verified the resulting proof. A strict two-ring witness and the exclusion of even a hole-permitted third ring give this particular shape exact Heesch number two.
 
-The [submission directory](submission/) contains the witness with its proof declaration and the compressed DRAT proof. In a challenge checkout with the checkers installed, put these two files in the editable submission directory and run `bash benchmark.sh`. The earlier 1,200 MiB attempt stopped during encoding. Its log remains in this archive to document that resource limit.
+The [submission directory](submission/) contains the placement witness, a list of 110,627 original clauses, and a core-relative LRAT proof. Both lrat-check and cake_lpr verified the proof on the core. In a challenge checkout with the checkers installed, copy these three files into the editable submission directory and run `bash benchmark.sh`. The [original DRAT proof](initial-drat/) is also available. Checking its full formula exceeded the local 1 GiB CakeML heap, which motivated using the smaller core. The earlier 1,200 MiB attempt stopped during encoding. Its log remains in this archive to document that resource limit.
 
 ## Replay
 
