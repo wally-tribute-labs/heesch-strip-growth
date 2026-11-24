@@ -43,9 +43,11 @@ For d≥2, a d-ring hole-agnostic patch centered at the origin fully surrounds e
 
 Frozen verifier commit [947f057](https://github.com/Layr-Labs/heesch/tree/947f05720e0842d80b5119b9b88546c890111d19). Native solver commit [d12a527](https://github.com/isohedral/heesch-sat/tree/d12a527c04310fed51d522318126781e2f7ed56d). The only native build specialization is an input dispatcher for the H grid; its search headers are upstream. `downloads.sha256` pins the Debian ARM64 build dependencies and upstream source archive. Python 3.12.16 and python-sat 1.9.dev25 were used in the experiment.
 
-## Frozen benchmark proof attempt
+## Proof for the two-ring representative
 
-The official proof producer attempted F(S,3) for the row-298 finite representative in an isolated directory. Its Python encoder raised MemoryError while forming the set of geometric contact pairs under a 1,200 MiB process virtual-memory cap, before finishing the CNF or invoking the proof solver. No official LRAT, formal non-tiler gate verdict or benchmark score was produced. The retained shape in proof/best.heesch is geometry only. The independent audit establishes Hh≤2 for this child because the necessary three-ring contact set is empty, with 102, 21 and zero supported contacts at successive depths. The frozen strict witness attains two.
+The challenge encoder completed the three-ring formula for the finite child of parent 298 when given a 5,632 MiB process memory allowance. The formula has 450,662 variables and 1,645,532 clauses. Glucose4 found it unsatisfiable and drat-trim verified the resulting proof. A strict two-ring witness and the exclusion of even a hole-permitted third ring give this particular shape exact Heesch number two.
+
+The [submission directory](submission/) contains the witness with its proof declaration and the compressed DRAT proof. In a challenge checkout with the checkers installed, put these two files in the editable submission directory and run `bash benchmark.sh`. The earlier 1,200 MiB attempt stopped during encoding. Its log remains in this archive to document that resource limit.
 
 ## Replay
 
